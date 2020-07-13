@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="30"
+        android:background="#F6CDDB"
+        android:weightSum="10">
+
+        <TextView
+            android:id="@+id/textView_welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="#F6CDDB"
+            android:text="Welcome to Shopping Fast-Pass"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="70"
+        android:background="@drawable/pink_background">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ENTER"
+            android:id="@+id/button_enter"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:background="#F6CDDB"
+            android:onClick="enter"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
