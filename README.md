@@ -7,7 +7,7 @@ My own app is called Shopping Fast-Pass. I combined some blocks to transform you
 ### This application aims to provide convenience for customers to place the products they want to buy. In the app, products are provided 
 with their shopping links for customers to find the shopping website fastly.
 ### Wireframe:
-![image]（）
+![image]（https://github.com/mullaa/Android-app/blob/master/wireframe.png）
 ### What blocks I achieved:
 1. button which triggers an action when clicked
 2. display a pop-up message ("toast")
